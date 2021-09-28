@@ -1,0 +1,62 @@
+.display-1 { font-size: 2rem; }
+
+.display-1-text {
+  padding: 20px 0 40px 0;
+  width: 100%;
+}
+
+/* Navbar */
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul {
+  padding-right: 90px;
+}
+
+/* Features */
+#features {
+  padding: 40px 0;
+}
+
+#features .features-row {
+  flex-wrap: wrap;
+}
+
+#features .features-row .box {
+  width: 100%;
+}
+
+#features .features-row .box-text {
+  padding: 20px;
+}
+
+/* Features */
+#webdev,
+#uiux,
+#identitydesign,
+#digitalmkt {
+  padding: 40px 0;
+}
+
+#webdev .webdev-row,
+#uiux .webdev-row,
+#identitydesign .webdev-row,
+#digitalmkt .webdev-row {
+  flex-wrap: wrap;
+}
+
+/* Overview */
+#overview {
+  padding: 40px 0;
+}
+
+/* Contact */
+#contact {
+  padding: 40px 0;
+}
+
+#contact form {
+  width: 100%;
+}

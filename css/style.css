@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #181818;
+  color: #fff;
+}
+
+h1 { 
+  font-size: 2.5rem; 
+  font-weight: 300;
+}
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { 
+  font-size: 1.5rem;
+  font-weight: 400; 
+}
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a { text-decoration: none; }
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.large { font-size: 1.25rem; }
+
+.small { font-size: 0.8rem; }
+
+.display-1 { font-size: 3rem; }
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.btn-dark {
+  background: #000;
+  border: none;
+  color: #fff;
+}
+
+.btn-pink {
+  background: #ea2bb2;
+  border:none;
+  color: #fff;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+form .form-group {
+  margin-bottom: 16px;
+}
+
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 7px 12px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #000;
+  background-clip: padding-box;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.display-1,
+.display-1-text {
+  text-align: center;
+} 
+
+.display-1-text {
+  padding: 20px 0 60px 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.txt-white {
+  color: #fff;
+}
+
+/* Mainheader */
+#mainheader {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Navbar */
+#navbar {
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #000000;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar .logo {
+  float: left;
+  font-size: 25px;
+}
+
+#navbar .cursive {
+  font-family: 'Birthstone', cursive;
+  font-size: 40px;
+  color: #ea2bb2;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+  font-weight: 600;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  color: #ea2bb2;
+}
+
+/* Features */
+#features {
+  padding: 80px 0;
+}
+
+#features .features-row {
+  display: flex;
+}
+
+#features .features-row .box {
+  width: 400px;
+}
+
+#features .features-row .box-text {
+  padding: 40px 20px 20px 20px;
+}
+
+#features .features-row .box-text p {
+  padding: 10px 0;
+}
+
+#features .features-row img {
+  width: 100%;
+}
+
+/* Features */
+#webdev,
+#uiux,
+#identitydesign,
+#digitalmkt {
+  padding: 80px 0;
+}
+
+#webdev .webdev-row,
+#uiux .webdev-row,
+#identitydesign .webdev-row,
+#digitalmkt .webdev-row {
+  display: flex;
+  grid-gap: 1em;
+  margin-bottom: 20px;
+}
+
+#webdev .webdev-box,
+#uiux .webdev-box,
+#identitydesign .webdev-box,
+#digitalmkt .webdev-box {
+  padding: 40px;
+  background: #fff;
+  color: #000;
+}
+
+#webdev .webdev-box p,
+#uiux .webdev-box p,
+#identitydesign .webdev-box p,
+#digitalmkt .webdev-box p {
+  padding: 10px 0;
+}
+
+#webdev .webdev-box hr,
+#uiux .webdev-box hr,
+#identitydesign .webdev-box hr,
+#digitalmkt .webdev-box hr {
+  background: #ea2bb2;
+  height: 5px;
+  border: none;
+  width: 20%;
+}
+
+/* Overview */
+#overview {
+  padding: 80px 0;
+}
+
+/* Contact */
+#contact {
+  padding: 80px 0;
+}
+
+#contact form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact form button {
+  width: 100%;
+}
+
+/* Footer */
+#mainfooter {
+  text-align: center;
+  padding:30px;
+}
